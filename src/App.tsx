@@ -1,9 +1,16 @@
-import "./App.css";
+import "./Style.css";
+import Header from "./Components/Header";
+import Sidenav from "./Components/Sidenav";
+import { Mapa } from "./Pages/Mapa";
 
 function App() {
   return (
     <div>
-      <h1>Project Population</h1>
+      <Sidenav />
+      <main>
+        <Header />
+        <Mapa />
+      </main>
     </div>
   );
 }
